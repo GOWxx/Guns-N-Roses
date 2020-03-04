@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
       http-equiv="X-UV-Compatible"
       content="ie=edge"
     />
@@ -16,12 +16,21 @@
     </style>
   </head>
   <body>
-    <h1>Guns N' Roses</h1>
+    <nav>
+      <ol>
+        <li><a href="#a">Guns N' Roses</a></li>
+        <li><a href="#b">重要事件</a></li>
+        <li><a href="#c">成就和荣誉</a></li>
+        <li><a href="#d">海报</a></li>
+        <li><a href="#e">社会事件</a></li>
+      </ol>
+    </nav>
+    <h1 id="a">Guns N' Roses</h1>
     <p>
       枪与玫瑰（英语：Guns N'
       Roses，简称：GNR）是一支美国的硬式摇滚乐队，成立于1985年的洛杉矶好莱坞，在八零年代末及九零年代初期享有盛名，1994年之后乐队成员除了主唱埃克索尔·罗斯之外均经频繁更换，到2008年才发行新专辑。枪与玫瑰有“世界摇滚巨星”的地位和“世界上最危险的乐队”称号。
     </p>
-    <h2>
+    <h2 id="b">
       重要事件
     </h2>
     <ul>
@@ -40,7 +49,7 @@
       <li>《民主大中国》发行和巡回演出 （1999-2014）</li>
       <li>经典阵容回归和此生无望巡回（2015-至今）</li>
     </ul>
-    <h2>
+    <h2 id="c">
       成就和荣誉
     </h2>
     <table>
@@ -485,13 +494,25 @@
         </tr>
       </tbody>
     </table>
-    <h2>海报</h2>
+    <h2 id="d">海报</h2>
 
-    <div><img width="800" src="images/1.jpg" alt="图一" /></div>
-    <div><img width="800" src="images/2.jpg" alt="图二" /></div>
-    <div><img width="800" src="images/4.jpg" alt="图四" /></div>
+    <div>
+      <a href="images/1.jpg" target="_blank"
+        ><img width="800" src="images/1.jpg" alt="图一"
+      /></a>
+    </div>
+    <div>
+      <a href="images/2.jpg" target="_blank"
+        ><img width="800" src="images/2.jpg" alt="图二"
+      /></a>
+    </div>
+    <div>
+      <a href="images/4.jpg" target="_blank"
+        ><img width="800" src="images/4.jpg" alt="图四"
+      /></a>
+    </div>
 
-    <h2>社会事件</h2>
+    <h2 id="e">社会事件</h2>
     <p>
       枪与玫瑰乐队尤其在1988年后期的表现是上社会新闻事件多过于纯粹舞台上表演，这些层出不穷的意外暴力事件让枪与玫瑰乐队被封为"世界上最危险的乐队"。
     </p>
@@ -514,5 +535,6 @@
       由于这件事件，在《运用你的幻象》专辑中“枪与玫瑰”的感谢名单中夹杂了一句
       "Fuck You, St. Louis! " （去你的，圣路易市）。
     </p>
+    <div style="height: 250px;"></div>
   </body>
 </html>
