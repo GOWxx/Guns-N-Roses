@@ -19,6 +19,7 @@ ol > li {
 }
 ol {
   display: inline-block;
+  float: right;
 }
 .logo {
   background-color: grey;
